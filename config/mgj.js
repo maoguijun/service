@@ -1,7 +1,6 @@
-
 module.exports = {
   mysql: {
-    database: 'freetopia',
+    database: 'whut',
     username: 'root',
     password: 'root',
     options: {

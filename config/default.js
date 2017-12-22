@@ -1,14 +1,13 @@
-const
-  args = require('./appconfig/args'),
+const args = require('./appconfig/args'),
   flowCfg = require('./appconfig/flowCfg'),
   errors = require('./appconfig/errors'),
-  init = require('./appconfig/init')
+  init = require('./appconfig/init');
 
 module.exports = {
   mysql: {
-    database: 'Freetopia',
+    database: 'whut',
     username: 'root',
-    password: '123456',
+    password: 'root',
     options: {
       host: '127.0.0.1',
       port: '3306',
@@ -33,7 +32,11 @@ module.exports = {
     'updatedUsr',
     'remark'
   ],
-  $: Object.assign({}, require('../components/common/basic'), require('../components/common/util')),
+  $: Object.assign(
+    {},
+    require('../components/common/basic'),
+    require('../components/common/util')
+  ),
   _: require('lodash'),
   moment: require('moment')
-}
+};

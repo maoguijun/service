@@ -1,7 +1,7 @@
 {
   "apps": [
     {
-      "name": "freetopia-backend",
+      "name": "whut-backend",
       "script": "./app.js",
       "watch": ["models", "routes", "app.js", "config", "components"],
       "log_file": "./log/apis.combined",
