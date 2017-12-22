@@ -1,0 +1,79 @@
+{
+  "name": "staff-rebuild",
+  "version": "0.0.1",
+  "description": " Staff",
+  "main": "index.js",
+  "keywords": [
+    "node.js",
+    "javascript"
+  ],
+  "scripts": {
+    "start": "node app.js",
+    "gcy": "NODE_ENV=gcy node app.js",
+    "mgj": "node app.js",
+    "test": "./node_modules/.bin/mocha",
+    "lint": "./node_modules/.bin/eslint --fix ./components ./routes ./config app.js ",
+    "production": "NODE_ENV=production node app.js",
+    "supervisor": "supervisor app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.loncus.com/wpp/staff-rebuild-service.git"
+  },
+  "author": "高承毅",
+  "contributors": [],
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "api-dialect": "^0.1.1",
+    "axios": "^0.16.2",
+    "body-parser": "^1.15.2",
+    "circular-json": "^0.3.1",
+    "config": "^1.26.1",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.3",
+    "double-ended-queue": "^2.1.0-0",
+    "ejs": "^2.5.7",
+    "exceljs": "^0.7.1",
+    "express": "~4.14.0",
+    "express-mysql-session": "^1.2.0",
+    "express-session": "^1.15.3",
+    "html-pdf": "^2.2.0",
+    "javascript-state-machine": "^3.0.1",
+    "ldapjs": "^1.0.1",
+    "ljx-sequelize-wrapper": "^0.1.12",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "morgan": "~1.7.0",
+    "multer": "^1.3.0",
+    "mysql": "^2.13.0",
+    "mysql2": "^1.2.0",
+    "object-assign": "^4.1.1",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "pinyin": "^2.8.3",
+    "rbac": "^4.0.2",
+    "readable-stream": "^2.3.2",
+    "redis": "^2.7.1",
+    "sequelize": "^3.30.4",
+    "sequelize-redis-cache": "^2.0.0",
+    "web-error": "^4.0.1",
+    "winston": "^2.3.1",
+    "winston-daily-rotate-file": "^1.4.6"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.5.2",
+    "babel-register": "^6.24.1",
+    "debug": "^2.6.3",
+    "eslint": "^4.0.0",
+    "mocha": "^3.4.2",
+    "randomstring": "^1.1.5",
+    "should": "^11.2.1"
+  }
+}

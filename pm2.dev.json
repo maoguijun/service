@@ -1,0 +1,26 @@
+{
+  "apps": [
+    {
+      "name": "freetopia-backend",
+      "script": "./app.js",
+      "watch": ["models", "routes", "app.js", "config", "components"],
+      "log_file": "./log/apis.combined",
+      "error_file": "./log/apis.errs",
+      "out_file": "./log/apis.logs",
+      "log_date_format" : "YYYY-MM-DD HH:mm:ss",
+      "env": {
+        "NODE_ENV": "ol-dev"
+      }
+      //      "instances": 4,
+      //      "exec_mode": "cluster"
+    }
+//    {
+//      "name": "blog-server",
+//      "script": "./server.js",
+//      "watch": false,
+//      "env": {
+//        "NODE_ENV": "dev"
+//      }
+//    }
+  ]
+}

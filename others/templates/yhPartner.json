@@ -1,0 +1,19 @@
+{
+  "id": "test",
+  "name": "test",
+  "gender": "test",
+  "birthday": "test",
+  "mobile": "test",
+  "telephone": "test",
+  "post": "test",
+  "email": "test",
+  "idType": "test",
+  "idNum": "test",
+  "idPlace": "test",
+  "bankName": "test",
+  "accountNum": "test",
+  "remark": "test",
+  "yhStoreId": "test",
+  "yhWorkShopId": "test",
+  "districtId": "test"
+}
